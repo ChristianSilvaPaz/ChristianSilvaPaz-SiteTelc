@@ -1,8 +1,4 @@
-:root {
-  --color-primary: #f35c58;
-  --color-text: #606164;
-  }
-  
+
   * {padding:0; 
      margin:0;
      vertical-align:baseline;
@@ -18,76 +14,46 @@
       height: 100%;
   }
   
-  a {
-    text-decoration: none;
-  }
+.navbar{
+  background: #f1f2fa;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
 
-  header {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    background: #f1f2fa;
-    height: 80px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-  }    
+ul.navbar-nav li a{
+  color: #606164;
+}
+
+li.nav-item{
+  padding:0 12px;
+}
+
+a{text-decoration: none;}
+     
   .sub-menu{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif !important;      
-  }
-  a.brand {
-    color: var(--color-primary);   
-    font-size: 30px;
-    margin-right: 20px;
-  }
-
-  .header-menu{
-      padding-top: 10px;
-  }
-
-  ul.header-menu {
-    list-style: none;
-    display: flex;
+    font-family: 'Roboto', sans-serif !important;  
+    display: none;  
+    padding-left: 8px;  
   }
   
-  ul.header-menu li:hover > div.sub-menu {
+.navbar-toggler{
+  color: black;
+}
+
+  div.sub-menu a{
+    margin-top: 20px;
+  }
+
+  ul.navbar-nav li:hover > div.sub-menu {
     display: block;
     z-index: 1000;
   }
-  
-  ul.header-menu li a {
-    display: block;
-    padding: 0 12px;
-    line-height: 80px;
-    color: var(--color-text);
-    font-weight: bold;
-    transition: color ease 0.3s;
-    text-decoration: none;
+    
+  ul.navbar-nav li a:hover {
+    color: #f35c58 !important;
   }
-  
-  ul.header-menu li a:hover {
-    color: var(--color-primary);
-  }
-  
-  ul.header-menu li div.sub-menu {
-    display: none;
-    position: absolute;
-    left: 0;
-    padding: 20px;
-    width: 100%;
-    background: #f1f2fa;
-    border-top: 1px solid #D9DAE1;
-  }
-  
-  iframe{
-      width: 100%;
-      height: 300px;
-  }
-  #map{
-      padding-left: 0px;
-      padding-right: 0px;
-      background-color: #3c3d41;   
-  }
+    
   #imgicon{
       font-size: 32px;
       color: red;
@@ -95,7 +61,6 @@
   #icon{
       padding-top: 10px;
       text-align: center;
-      background-color: #f4f4f4;
   }
   #myFooter{
       background-color: #3c3d41;
@@ -119,3 +84,46 @@
   h4{
     font-size: 14px;
   }
+  h3{
+    font-family: 'Open Sans', sans-serif;
+  }
+  p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4a4949;
+  }
+  #ener{
+    margin-top: 70px;
+  }
+  #enertext{
+    padding: 70px;
+  }
+  #imgener{
+    width: 100%;
+    margin-top: 3px;
+  }
+  #enercontato{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #enericon{
+    color: green;
+    float: right;
+    font-size: 50px;
+  }
+  #enerwhatsapp{
+    padding-right: 70px;
+  }
+  #contentpacote{
+    background-color: #FAFAFF;
+    margin-top: 40px;
+  }
+  #pacote{
+    margin-top: 40px;
+  }
+  #contentindex{
+    padding-top: 10px;
+    text-align: center;
+    background-color: #FAFAFF;
+    padding: 0%;
+  }
+  

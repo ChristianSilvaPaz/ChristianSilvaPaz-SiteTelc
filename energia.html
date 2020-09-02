@@ -11,6 +11,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 200 & display = swap" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -32,62 +34,108 @@
           	</li>
         </ul>
     </header>
-    <div class="container">
-        <img src="imagens/energia.png" alt="energia">
-        <div class="row">
+    <div class="container-fluid">
+        <img class="img-fluid" id="imgener" src="imagens/energia.png" alt="energia">
+        <div class="row" id="ener">
             <div class="col-sm-6">
-                <img class="img-fluid" src="imagens/energia1.jpg" height="300px" alt="modulofotovoltaico">
+                <img class="img-fluid" src="imagens/energia6.jpg" height="300px" alt="caixa">
             </div>
-            <div class="col-sm-6">
-                <h3>Módulo fotovoltaico</h3>
-                <p>Os módulos fotovoltaicos geram eletricidade a partir da energia solar. Possuem diversas potências e podem ser usados em sistemas isolados ou conectados à rede.</p>
+            <div class="col-sm-6" id="enertext">
+                <h3>Produza sua própria energia</h3><br>
+                <p>A Telc Antenas traz para Paracatu e região uma solução completa para geração de energia elétrica. Mais sustentabilidade e economia em sua conta de luz.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 order-md-2">
+        <div class="row" id="ener">
+            <div class="col-sm-6 order-sm-2">
                 <img class="img-fluid" src="imagens/energia2.jpg" height="300px" alt="inversor">
             </div>
-            <div class="col-md-6 order-md-1">
-                <h3>Inversor On Grid</h3>
+            <div class="col-sm-6 order-sm-1"  id="enertext">
+                <h3>Inversor On Grid</h3><br>
                 <p>O inversor recebe a energia gerada pelos módulos, sincroniza com a rede da concessionária e injeta essa energia na sua rede abastecendo os equipamentos e enviando para concessionária os excedentes.</p>
             </div>
         </div> 
-        <div class="row">
-            <div class="col-md-6 order-md-1">
+        <div class="row" id="ener">
+            <div class="col-sm-6 order-sm-1">
                 <img class="img-fluid" src="imagens/energia3.jpg" height="300px" alt="gerador">
             </div>
-            <div class="col-md-6 order-md-2">
-                <h3>Gerador fotovoltaico On Grid</h3>
+            <div class="col-sm-6 order-sm-2" id="enertext">
+                <h3>Gerador fotovoltaico On Grid</h3><br>
                 <p>Perfeito para ajudar na redução do consumo de energia elétrica, que pode ser instalado em qualquer região em que haja energia elétrica fornecida por distribuidoras.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 order-md-2">
+        <div class="row" id="ener">
+            <div class="col-sm-6 order-sm-2">
                 <img class="img-fluid" src="imagens/energia4.jpg" height="300px" alt="caixa">
             </div>
-            <div class="col-md-6 order-md-1">
-                <h3>String box</h3>
+            <div class="col-sm-6 order-sm-1" id="enertext">
+                <h3>String box</h3><br>
                 <p>A string box ajuda a prevenir danos ao sistema fotovoltaico, o que faz dela um equipamento de proteção.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 order-md-1">
+        <div class="row" id="ener">
+            <div class="col-sm-6 order-sm-1">
                 <img class="img-fluid" src="imagens/energia5.jpg" height="300px" alt="estrutura">
             </div>
-            <div class="col-md-6 order-md-2">
-                <h3>Estruturas de fixação</h3>
+            <div class="col-sm-6 order-sm-2" id="enertext">
+                <h3>Estruturas de fixação</h3><br>
                 <p>As estruturas são utilizadas para a fixação do sistema fotovoltaico em telhados.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 order-md-1">
-                <h3>Produza sua própria energia</h3>
-                <p>A Telc Antenas traz para Paracatu e região uma solução completa para geração de energia elétrica. Mais sustentabilidade e economia em sua conta de luz.</p>
+        <div class="row" id="ener">
+            <div class="col-sm-6 order-sm-2">
+                <img class="img-fluid" src="imagens/energia1.jpg" height="300px" alt="modulofotovoltaico">
             </div>
-            <div class="col-md-6 order-md-2">
-                <img class="img-fluid" src="imagens/energia6.jpg" height="300px" alt="caixa">
+            <div class="col-sm-6 order-sm-1" id="enertext">
+                <h3>Módulo fotovoltaico</h3><br>
+                <p>Os módulos fotovoltaicos geram eletricidade a partir da energia solar. Possuem diversas potências e podem ser usados em sistemas isolados ou conectados à rede.</p>
             </div>
         </div>
-    </div>
+        <div class="row" id="enercontato">
+            <div class="col-sm-6">
+                <h3>Entre em contato com nosso consultor</h3>
+                <h3>Solicite um orçamento ou tire todas as suas dúvidas<h3>
+            </div>
+            <div class="col-sm-6" id="enerwhatsapp">    
+                <a id="enericon" href=" http://api.whatsapp.com/send?1=pt_BR&phone=5538991786975"><i class="fa fa-whatsapp"></i></a>  
+            </div>
+        </div>
+    </div>    
+    <footer id="myFooter">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="logo"><img src="imagens/logo2.png" alt="" class="img-thumbnail"></a>
+            </div>
+            <div class="col-sm-3">
+                <h5>Início</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pacotes e Ofertas</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Energia Solar</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5>Sobre-nós</h5>
+                <ul>
+                    <li><a href="#">Informações da Empresa</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h5>Siga-nos nas redes sociais</h5>
+                <div class="redes-sociais">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                </div>	
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+            <p>Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>

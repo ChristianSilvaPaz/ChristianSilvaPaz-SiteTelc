@@ -20,6 +20,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link href = "https://fonts.googleapis.com/css2? family = Source + Sans + Pro: wght @ 200 & display = swap" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -38,7 +40,6 @@
         </li>
         <li>
           <a href="#">Serviços</a>
-          <div class="sub-menu"></div>
         </li>
         <li>
           <a href="energia.html">Energia Solar</a>
@@ -71,58 +72,68 @@
             </a>
 		</div>
 	</div>
-    <div class="container">
+  <div class="container-fluid" id="contentpacote">
       <h1>Os melhores planos de TV por assinatura</h1>
-      <h1>Easy</h1>
-      <h4 class="text-muted">O melhor da programação em alta definição.</h4>
+      <div id="pacote"><h2>Easy</h2>
+        <h4 class="text-muted">O melhor da programação em alta definição.</h4>
+      </div>
       <div class="row">
         <div class="col-sm-6">
-          <img class="img-fluid" src="imagens/easy.png" alt="pacoteeasy" />
+          <img class="img-thumbnail" src="imagens/easy.png" alt="pacoteeasy" />
         </div>
         <div class="col-sm-6">
-          <img src="imagens/easy2.png" alt="pacoteeasy2" />
+          <img class="img-thumbnail" src="imagens/easy2.png" alt="pacoteeasy2" />
         </div>
       </div>
-      <h1>FUN</h1>
-      <h4 class="text-muted">Conte com os maiores canais do esporte</h4>
+      <div id="pacote"><h1>FUN</h1>
+        <h4 class="text-muted">Conte com os maiores canais do esporte</h4>
+      </div>
       <div class="row">
         <div class="col-sm-6">
-          <img src="imagens/fun.png" alt="pacotefun" />
+          <img class="img-thumbnail" src="imagens/fun.png" alt="pacotefun" />
         </div>
         <div class="col-sm-6">
-          <img src="imagens/fun2.png" alt="pacotefun2" />
+          <img class="img-thumbnail" src="imagens/fun2.png" alt="pacotefun2" />
         </div>
       </div>
-      <h1>MEGA</h1>
-      <h4 class="text-muted">
-        Mais de 190 canais com até 3 equipamentos em alta definição e gravação
-        opcional
-      </h4>
+      <div id="pacote"><h1>MEGA</h1>
+        <h4 class="text-muted">
+          Mais de 190 canais com até 3 equipamentos em alta definição e gravação opcional
+        </h4>
+      </div>
       <div class="row">
         <div class="col-sm-6">
-          <img src="imagens/megaplus.png" alt="pacotemegaplus" />
+          <img class="img-thumbnail" src="imagens/megaplus.png" alt="pacotemegaplus" />
         </div>
         <div class="col-sm-6">
-          <img src="imagens/megaplus2.png" alt="pacotemegaplus2" />
+          <img class="img-thumbnail" src="imagens/megaplus2.png" alt="pacotemegaplus2" />
         </div>
       </div>
-      <h1>MEDIA CENTER</h1>
-      <h4 class="text-muted">
-        Mais de 200 canais, 4 equipamentos em alta definição com gravação
-        inclusa, além de Telecine, HBO e Premiere:
-      </h4>
+      <div id="pacote"><h1>MEDIA CENTER</h1>
+        <h4 class="text-muted">
+          Mais de 200 canais, 4 equipamentos em alta definição com gravação inclusa, além de Telecine, HBO e Premiere:
+        </h4>
+      </div>  
       <div class="row">
         <div class="col-sm-6">
-          <img src="imagens/mediacenter.png" alt="pacotemediacenter" />
+          <img class="img-thumbnail" src="imagens/mediacenter.png" alt="pacotemediacenter" />
         </div>
         <div class="col-sm-6">
-          <img src="imagens/mediacenter2.png" alt="pacotemediacenter2" />
+          <img class="img-thumbnail" src="imagens/mediacenter2.png" alt="pacotemediacenter2" />
         </div>
       </div>
-      <h1>BÁSICO</h1>
-      <img src="imagens/basico.png" alt="pacotebasico" />
-    </div>
-    <div>Consulte agora um de nossos vendedores</div>
+      <div id="pacote"><h1>BÁSICO</h1></div>
+        <img class="img-thumbnail" src="imagens/basico.png" alt="pacotebasico" />
+      <div class="row" id="enercontato">
+        <div class="col-sm-6">
+          <h3>Entre em contato com um de nossos vendedores</h3>
+          <h3>Assine já ou tire todas as suas dúvidas<h3>
+        </div>
+        <div class="col-sm-6" id="enerwhatsapp">    
+          <a id="enericon" href=" http://api.whatsapp.com/send?1=pt_BR&phone=5538991786975"><i class="fa fa-whatsapp"></i></a>  
+        </div>
+      </div>
+    </div>  
     <footer id="myFooter">
       <div class="container">
       <div class="row">
@@ -130,18 +141,20 @@
               <h2 class="logo"><img src="imagens/logo2.png" alt="" class="img-thumbnail"></a>
           </div>
           <div class="col-sm-3">
-              <h5>Inicio</h5>
+              <h5>Início</h5>
               <ul>
                   <li><a href="#">Home</a></li>
-                  <li><a href="#">Cursos</a></li>
-                  <li><a href="#">Downloads</a></li>
+                  <li><a href="#">Pacotes e Ofertas</a></li>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="#">Energia Solar</a></li>
+                  <li><a href="#">Contatos</a></li>
               </ul>
           </div>
           <div class="col-sm-3">
               <h5>Sobre-nós</h5>
               <ul>
                   <li><a href="#">Informações da Empresa</a></li>
-                  <li><a href="#">Contato</a></li>
+                  <li><a href="#">Fale Conosco</a></li>
               </ul>
           </div>
           <div class="col-sm-3">
@@ -149,6 +162,7 @@
               <div class="redes-sociais">
                   <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-whatsapp"></i></a>
               </div>	
           </div>
       </div>
