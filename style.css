@@ -102,8 +102,8 @@ a{text-decoration: none;}
     margin-top: 3px;
   }
   #enercontato{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   #enericon{
     color: green;
@@ -115,15 +115,19 @@ a{text-decoration: none;}
   }
   #contentpacote{
     background-color: #FAFAFF;
-    margin-top: 40px;
+    padding-top: 40px;
   }
   #pacote{
-    margin-top: 40px;
+    padding-top: 40px;
   }
   #contentindex{
     padding-top: 10px;
     text-align: center;
     background-color: #FAFAFF;
     padding: 0%;
+  }
+  #contentservicos{
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   

@@ -15,25 +15,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="index.html" class="brand"><img src="imagens/logo2.png" alt="" height="70px" width="70px" class="img-thumbnail"></a>
-        <ul class="header-menu">
-        	<li>
-            	<a href="#">Pacotes e Ofertas</a>
-                <div class="sub-menu"><a href="pacotes.html">Pós-pago TV<br><a href="pacotespre.html">Pré-pago TV</a></div>
-        	</li>
-        	<li>
-            	<a href="#">Serviços</a>
-            	<div class="sub-menu"></div>
-        	</li>
-        	<li>
-            	<a href="energia.html">Energia Solar</a>
-          	</li>
-          	<li>
-            	<a href="#">Contatos</a>
-          	</li>
-        </ul>
-    </header>
+    <div class="row" style="background-color: #FFFF; padding-bottom: 10px;">
+        <div class="col-sm-6">
+            <a href="index.html" class="brand"><img src="imagens/logo2.png" alt="" height="70px" width="70px" class="img-thumbnail" style="margin-left: 36px;"></a>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse align-items-center">    
+            <a href="#" style="padding-right: 10px; color:#3c3d41; font-size: 26px;" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="#" style="padding-right: 10px; color: #3c3d41; font-size: 26px;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#" style="padding-right: 10px; padding-left: 10px; color: #3c3d41; font-size: 26px;" target="_blank"><i class="fa fa-facebook"></i></a> 
+            <h3 style="padding-top: 10px;">(38)3671-6433</h3>                          
+            <i class="fa fa-phone" aria-hidden="true" style="font-size: 26px; color: #3c3d41; padding-top: 10px; padding-right: 10px;"></i>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pacotes e Ofertas<span class="sr-only"></span></a>
+                    <div class="sub-menu"><br><a href="pacotes.html">Pós-pago TV<br><br><a href="pacotespre.html">Pré-pago TV</a><br><br></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="energia.html">Energia Solar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contatos">Contatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#faleconosco">Fale Conosco</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container-fluid">
         <img class="img-fluid" id="imgener" src="imagens/energia.png" alt="energia">
         <div class="row" id="ener">
@@ -42,7 +60,7 @@
             </div>
             <div class="col-sm-6" id="enertext">
                 <h3>Produza sua própria energia</h3><br>
-                <p>A Telc Antenas traz para Paracatu e região uma solução completa para geração de energia elétrica. Mais sustentabilidade e economia em sua conta de luz.</p>
+                <p>A Telc Antenas traz para Paracatu e região uma solução completa para geração de energia fotovoltaica. Mais sustentabilidade e economia em sua conta de luz.</p>
             </div>
         </div>
         <div class="row" id="ener">
@@ -109,26 +127,26 @@
             <div class="col-sm-3">
                 <h5>Início</h5>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Pacotes e Ofertas</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Energia Solar</a></li>
-                    <li><a href="#">Contatos</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pacotes.html">Pacotes e Ofertas</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="energia.html">Energia Solar</a></li>
+                    <li><a href="index.html#contatos">Contatos</a></li>
                 </ul>
             </div>
             <div class="col-sm-3">
                 <h5>Sobre-nós</h5>
                 <ul>
-                    <li><a href="#">Informações da Empresa</a></li>
-                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="servicos.html">Informações da Empresa</a></li>
+                    <li><a href="index.html">Fale Conosco</a></li>
                 </ul>
             </div>
             <div class="col-sm-3">
                 <h5>Siga-nos nas redes sociais</h5>
                 <div class="redes-sociais">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a>
                 </div>	
             </div>
         </div>
